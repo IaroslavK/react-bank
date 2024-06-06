@@ -1,0 +1,22 @@
+.round {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.round-button {
+  background-color: white;
+  border: 13px solid white;
+  background-color: #5b94e9;
+
+  border-radius: 100%;
+  padding: 32px 32px;
+
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

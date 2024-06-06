@@ -1,0 +1,9 @@
+.alert {
+  border: 1px solid #fef4ec;
+  color: #f2883d;
+  background-color: #fef4ec;
+  border-radius: 12px;
+  padding: 16px;
+  width: 353px;
+  height: 56px;
+}

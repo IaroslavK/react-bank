@@ -1,0 +1,11 @@
+.balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  font-size: 34px;
+}
+
+.balance-dollars {
+  font-weight: 600;
+}

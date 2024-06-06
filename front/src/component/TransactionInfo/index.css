@@ -1,0 +1,40 @@
+.transaction-info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.transaction-info__amount {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 38px;
+}
+
+.transaction-info__amount.positive {
+  color: #26bf80;
+}
+
+.transaction-info__amount.negative {
+  color: black;
+}
+
+.transaction-info__whole {
+  font-weight: 500;
+}
+
+.transaction-info__block {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.transaction-info__value {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+}

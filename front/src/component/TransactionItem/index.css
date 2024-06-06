@@ -1,0 +1,72 @@
+.transaction-item {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: space-between;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transaction-item__info {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.transaction-item img {
+  width: 48px;
+  height: 48px;
+}
+
+.transaction-item__description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: space-evenly;
+}
+.transaction-item__title {
+  font-weight: 600;
+}
+
+.transaction-item__sub-block {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #939199;
+}
+
+.transaction-item__sub-value {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.transaction-item__sub-value:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 2px;
+  border-radius: 2px;
+  background-color: #939199;
+}
+
+.transaction-item__amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.transaction-item__amount.positive {
+  color: #26bf80;
+}
+
+.transaction-item__amount.negative {
+  color: black;
+}
+
+.transaction-item__whole {
+  font-weight: 500;
+}

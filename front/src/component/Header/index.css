@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.no-button {
+  width: 24px;
+  height: 24px;
+}
+
+.header__button {
+  cursor: pointer;
+}
+
+.header__text {
+  color: white;
+  font-size: 16px;
+}
+.header__title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #121212;
+}

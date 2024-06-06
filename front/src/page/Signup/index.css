@@ -1,0 +1,16 @@
+.signup {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px 20px;
+}
+
+.signup__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signinLink {
+  font-size: 14px;
+}

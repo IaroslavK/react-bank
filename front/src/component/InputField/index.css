@@ -1,0 +1,58 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.input-t {
+  position: relative;
+}
+
+.payment {
+  position: absolute;
+  left: 15px;
+  top: 19.5px;
+}
+
+.input {
+  background-color: #fff;
+  border: 1px solid transparent;
+  color: #1d1d1f;
+  border-color: #e9e8eb;
+  border-radius: 12px;
+  padding: 16px;
+  width: 353px;
+  height: 54px;
+}
+
+.with-dollar {
+  padding-left: 25px;
+}
+
+.input-label {
+  font-size: 14px;
+}
+
+.input:focus {
+  border-color: #775ce5;
+}
+
+.input-alert {
+  border: 1px solid red;
+  color: red;
+  border-radius: 12px;
+  padding: 16px;
+  width: 353px;
+  height: 56px;
+}
+
+.input-image-container {
+  position: absolute;
+  top: 52%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.error-message {
+  font-size: 14px;
+  color: red;
+}

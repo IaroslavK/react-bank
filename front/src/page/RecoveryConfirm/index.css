@@ -1,0 +1,12 @@
+.recovery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px 20px;
+}
+
+.recovery__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

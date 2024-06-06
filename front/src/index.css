@@ -1,8 +1,33 @@
+:root {
+  background-color: #1e1e1e;
+}
+
+html {
+  min-height: 100%;
+  padding: 64px 0;
+}
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  width: 393px;
+
+  margin: auto;
+  height: 852px;
+
+  border-radius: 24px;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }

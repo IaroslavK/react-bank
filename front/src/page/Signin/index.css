@@ -1,0 +1,16 @@
+.signin {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px 20px;
+}
+
+.signin__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.recoveryLink {
+  font-size: 14px;
+}

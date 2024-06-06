@@ -1,0 +1,36 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.heading--welcomePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 107px;
+  gap: 16px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #121212;
+}
+
+.title--welcomePage {
+  font-weight: bold;
+  font-size: 42px;
+  color: #fff;
+}
+
+.text {
+  font-size: 14px;
+  color: #939199;
+}
+
+.text--welcomePage {
+  font-size: 20px;
+  color: #fff;
+}

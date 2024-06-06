@@ -1,0 +1,23 @@
+.error-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 53px 20px;
+}
+
+.error-type {
+  text-align: center;
+  color: #939199;
+  font-size: 150px;
+}
+
+.error-description {
+  text-align: center;
+  color: #939199;
+  font-size: 50px;
+}
+
+.error-link {
+  text-align: center;
+  font-size: 22px;
+}

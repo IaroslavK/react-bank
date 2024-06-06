@@ -1,0 +1,28 @@
+.balance-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px 20px;
+  width: 393px;
+  height: 202px;
+  background-image: url("../../images/BGBalance.jpg");
+  border-radius: 24px 24px 0px 0px;
+}
+
+.balance-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+}
+
+.balance-loader {
+  text-align: center;
+  color: #fff;
+}
+
+.transactions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

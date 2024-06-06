@@ -1,0 +1,29 @@
+.receive-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border: none;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.receive-button:hover {
+  background-color: #45a049;
+}
+
+.receive-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.receive-text {
+  font-weight: 600;
+}
